@@ -26,7 +26,7 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set showmatch
-set noexpandtab
+autocmd FileType python set expandtab
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
